@@ -29,7 +29,7 @@ We use the TriviaQA dataset to train and test the RAG models. This dataset is id
 
 #### Retriever:
 
-## Work Done:
+## Work Done and Experiments:
 
 We first implemented the RAG model using the TriviaQA dataset, and then incorporated Multihop Retrieval, Reinforcement Learning, Dropout Retrieval and Hybrid Retrieval to build the following models:
 
@@ -48,3 +48,15 @@ We first implemented the RAG model using the TriviaQA dataset, and then incorpor
 ### Multihop Retrieval
 Multihop Retrieval is a method wherein a question is answered by combining information from various documents or facts. It is an iterative process that requires chaining together pieces of evidence across steps (hops).
 In our project, we experimented with various hop sizes.
+
+### Reinforcement Learning
+In our project, we implemented reinforcement learning from scratch using a custom reward function and loss function.
+The custom reward function we used is:
+
+The custom loss function we used is:
+
+### Hybrid Retrieval
+
+### Dropout Retrieval
+
+### Evaluation Metrics
