@@ -35,12 +35,12 @@ We first implemented the RAG model using the TriviaQA dataset, and then incorpor
 
 **Model 0: RAG (basic implementation of original RAG paper)**
 
-Model 1: RAG + Multihop Retrieval
+**Model 1: RAG + Multihop Retrieval**
 
-Model 2: RAG + Reinforcement Learning
+**Model 2: RAG + Reinforcement Learning**
 
-Model 3: RAG + Dropout Retrieval
+**Model 3: RAG + Dropout Retrieval**
 
-Model 4: RAG + Hybrid Retrieval
+**Model 4: RAG + Hybrid Retrieval**
 
-Model 5: RAG + Multihop Retrieval + Reinforcement Learning + Dropout Retrieval
+**Model 5: RAG + Multihop Retrieval + Reinforcement Learning + Dropout Retrieval**
