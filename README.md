@@ -4,6 +4,11 @@ This project enhances the standard Retrieval Augmented Generation pipeline by in
 
 Note: The codes to run the models mentioned below are uploaded above. Within the folders for each model, we have included the codes for the various experiments we ran (Eg: changing number of hops, changing alpha for RL Loss, etc.) along with the trained models for each kind of model. There is an EVAL.ipynb file above that can be used to load and evaluate any model.
 
+### Main Contributions of Project
+We have built an enhanced RAG model using Multihop Retrieval, Reinforcement Learning and Hybrid Retrieval which performs around 6x better (in terms of BLEU score and other evaluation metrics) than the original RAG model.
+
+We did extensive ablation studies of various models including 
+
 ### Background and Project Motivation
 
 Retrieval-Augmented Generation is an advanced framework that leverages the power of information retrieval to enhance generative models for tasks such as question answering, summarization, and dialogue. In this approach, a retrieval mechanism first fetches the most relevant documents or passages from a large external knowledge base. These retrieved pieces of information are then passed to a generative model, which synthesizes and generates coherent, contextually accurate responses grounded in the external knowledge. By combining retrieval with generation, RAG improves the quality and factual accuracy of the generated output, making it highly effective for real-world applications requiring deep knowledge and context.
