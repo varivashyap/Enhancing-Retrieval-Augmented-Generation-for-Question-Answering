@@ -56,7 +56,7 @@ The custom reward function we used is:
 
 
 <p align="center" style="font-size: 30px; font-weight: bold;">
-  Reward = α·EMScore + β·F1Score + γ·BERTF1Score + δ·Consistency
+  **Reward = α·EMScore + β·F1Score + γ·BERTF1Score + δ·Consistency**
 </p>
 
 
