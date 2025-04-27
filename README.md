@@ -8,7 +8,7 @@ Retrieval-Augmented Generation is an advanced framework that leverages the power
 
 While Retrieval-Augmented Generation (RAG) has significantly improved the performance of open-domain Question Answering (QA) and other knowledge-intensive tasks, it still suffers from several critical limitations:
 
-Shallow Retrieval: Standard RAG usually retrieves documents in a single pass. This is often insufficient for complex questions that require multi-step reasoning across multiple pieces of evidence.
+* **Shallow** Retrieval: Standard RAG usually retrieves documents in a single pass. This is often insufficient for complex questions that require multi-step reasoning across multiple pieces of evidence.
 
 Retrieval-Answer Mismatch: RAG systems often retrieve documents that are only loosely related to the query, leading the generator to "hallucinate" or produce incorrect or unsupported answers.
 
