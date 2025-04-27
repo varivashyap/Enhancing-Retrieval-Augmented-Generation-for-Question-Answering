@@ -67,4 +67,5 @@ Dropout Retrieval is a technique used in information retrieval where certain doc
 The evaluation metrics we used to measure the performance of and analyze the various models are:
 
 **BLEU Score**: Measures the overlap of n-grams between the generated text and the reference text.
+
 **ROUGE-L Score**: Measures the longest common subsequence between the generated text and the reference text.
