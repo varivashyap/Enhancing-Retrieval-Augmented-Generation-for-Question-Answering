@@ -23,11 +23,13 @@ In this project, we enhance RAG through various methods such as Multihop Retriev
 ### Dataset: TriviaQA
 We use the TriviaQA dataset to train and test the RAG models. This dataset is ideal for training and testing a RAG model for question answering because it contains a large, diverse set of fact-based questions paired with high-quality evidence from web documents, allowing the model to learn to retrieve and generate accurate answers.
 
-### Retrieval Documents:
+### Retrieval Documents: Wiki-DPR Dataset
 
-### Model:
+### Model: RAG Token NQ (Facebook)
 
-### Retriever:
+### Retriever: RAG Token NQ Retriever (Facebook)
+
+### Tokenizer: RAG Token NQ Tokenizer for Input Embedding, BART Large Tokenizer for Generator
 
 ## Work Done and Experiments:
 
