@@ -64,7 +64,7 @@ The reward function **Reward = α·EMScore + β·F1Score + γ·BERTF1Score + δ�
 The custom loss function we used is:
 
 
-<p align="center" style="font-size: 30px; font-weight: bold;">
+<p align="center" style="font-size: 30; font-weight: bold;">
   Loss = α·SupervisedLoss + β·RLLoss
 </p>
 
