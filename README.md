@@ -80,4 +80,4 @@ The evaluation metrics we used to measure the performance of and analyze the var
 
 **BERT Recall:** Measures the proportion of correctly predicted relevant answers out of all of the relevant answers.
 
-**BERT F1 Score:** Harmonic Mean of Precision and Recall. Measures 
+**BERT F1 Score:** Harmonic Mean of Precision and Recall.
