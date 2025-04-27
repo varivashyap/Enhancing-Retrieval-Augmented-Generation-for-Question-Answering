@@ -51,12 +51,20 @@ In our project, we experimented with various hop sizes.
 
 ### Reinforcement Learning
 In our project, we implemented reinforcement learning from scratch using a custom reward function and loss function.
+
 The custom reward function we used is:
 
 The custom loss function we used is:
 
 ### Hybrid Retrieval
+Hybrid Retrieval combines multiple retrieval techniques, such as keyword-based and neural-based methods, to enhance the quality and accuracy of information retrieval in tasks like Question Answering.
 
 ### Dropout Retrieval
+Dropout Retrieval is a technique used in information retrieval where certain documents or features are randomly excluded during training to improve model generalization and robustness.
 
 ### Evaluation Metrics
+
+The evaluation metrics we used to measure the performance of and analyze the various models are:
+
+**BLEU Score**: Measures the overlap of n-grams between the generated text and the reference text.
+**ROUGE-L Score**: Measures the longest common subsequence between the generated text and the reference text.
