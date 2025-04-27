@@ -66,18 +66,18 @@ Dropout Retrieval is a technique used in information retrieval where certain doc
 
 The evaluation metrics we used to measure the performance of and analyze the various models are:
 
-**BLEU Score:** Measures the overlap of n-grams between the generated text and the reference text.
+**BLEU Score:** Measures the overlap of n-grams between the generated text and the reference text. Measures accurate phrasing.
 
-**ROUGE-L Score:** Measures the longest common subsequence between the generated text and the reference text.
+**ROUGE-L Score:** Measures the longest common subsequence between the generated text and the reference text. Captures answer structure.
 
-**ROUGE-1 Score:** Measures the number of overlapping unigrams between the generated text and the reference text.
+**ROUGE-1 Score:** Measures the number of overlapping unigrams between the generated text and the reference text. Measures surface-level relevance.
 
-**ROUGE-2 Score:** Measures the number of overlapping bigrams between the generated text and the reference text.
+**ROUGE-2 Score:** Measures the number of overlapping bigrams between the generated text and the reference text. Measures fluency and better structure.
 
-**Exact Match:** Measures the percentage of times the generated answer exactly matches the ground truth answer.
+**Exact Match:** Measures the percentage of times the generated answer exactly matches the ground truth answer. Measures strict correctness.
 
-**BERT Precision:** Measures the proportion of correctly predicted relevant answers out of all of the answers that the model has predicted as relevant.
+**BERT Precision:** Measures the proportion of correctly predicted relevant answers out of all of the answers that the model has predicted as relevant. Measures semantic similarity.
 
-**BERT Recall:** Measures the proportion of correctly predicted relevant answers out of all of the relevant answers.
+**BERT Recall:** Measures the proportion of correctly predicted relevant answers out of all of the relevant answers. Measures semantic similarity.
 
-**BERT F1 Score:** Harmonic Mean of Precision and Recall.
+**BERT F1 Score:** Harmonic Mean of Precision and Recall. Measures semantic similarity.
