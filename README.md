@@ -20,5 +20,27 @@ While Retrieval-Augmented Generation (RAG) has significantly improved the perfor
 
 In this project, we enhance RAG through various methods such as Multihop Retrieval, Hybrid Retrieval, Reinforcement Learning and Dropout Retrieval. By improving retrieval quality, we aim to enhance factual accuracy, completeness and explainability. Our goal is to build more robust, contextually aware and trustworthy Question Answering systems capable of handling complex queries.
 
-### Dataset: TriviaQA
+#### Dataset: TriviaQA
 We use the TriviaQA dataset to train and test the RAG models. This dataset is ideal for training and testing a RAG model for question answering because it contains a large, diverse set of fact-based questions paired with high-quality evidence from web documents, allowing the model to learn to retrieve and generate accurate answers.
+
+#### Retrieval Documents:
+
+#### Model:
+
+#### Retriever:
+
+## Work Done:
+
+We first implemented the RAG model using the TriviaQA dataset, and then incorporated Multihop Retrieval, Reinforcement Learning, Dropout Retrieval and Hybrid Retrieval to build the following models:
+
+**Model 0: RAG (basic implementation of original RAG paper)**
+
+Model 1: RAG + Multihop Retrieval
+
+Model 2: RAG + Reinforcement Learning
+
+Model 3: RAG + Dropout Retrieval
+
+Model 4: RAG + Hybrid Retrieval
+
+Model 5: RAG + Multihop Retrieval + Reinforcement Learning + Dropout Retrieval
