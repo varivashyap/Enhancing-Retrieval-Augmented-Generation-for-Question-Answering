@@ -44,3 +44,7 @@ We first implemented the RAG model using the TriviaQA dataset, and then incorpor
 **Model 4: RAG + Hybrid Retrieval**
 
 **Model 5: RAG + Multihop Retrieval + Reinforcement Learning + Dropout Retrieval**
+
+### Multihop Retrieval
+Multihop Retrieval is a method wherein a question is answered by combining information from various documents or facts. It is an iterative process that requires chaining together pieces of evidence across steps (hops).
+In our project, we experimented with various hop sizes.
