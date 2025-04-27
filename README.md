@@ -59,6 +59,7 @@ The custom reward function we used is:
   Reward = α·EMScore + β·F1Score + γ·BERTF1Score + δ·Consistency
 </p>
 
+The reward function **Reward = α·EMScore + β·F1Score + γ·BERTF1Score + δ·Consistency** balances multiple quality dimensions for a RAG model in Q&A tasks. It rewards exact matches (EMScore), informative and relevant answers (F1Score), semantically accurate responses (BERTF1Score), and consistency in answers over time, encouraging both precision and robustness in the model's output. This comprehensive approach optimizes for high-quality, reliable, and contextually correct answers.
 
 The custom loss function we used is:
 
