@@ -54,6 +54,7 @@ In our project, we implemented reinforcement learning from scratch using a custo
 
 The custom reward function we used is:
 
+```diff
 <p align="center" style="font-size: 30px; font-weight: bold;">
   Reward = α·EMScore + β·F1Score + γ·BERTF1Score + δ·Consistency
 </p>
