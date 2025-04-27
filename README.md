@@ -53,7 +53,9 @@ In our project, we experimented with various hop sizes.
 In our project, we implemented reinforcement learning from scratch using a custom reward function and loss function.
 
 The custom reward function we used is:
-α·EMScore + β·F1Score + γ·BERTF1Score + δ·Consistency
+
+`α·EM-Score + β·F1-Score + γ·BERT-F1-Score + δ·Consistency`
+
 The custom loss function we used is:
 
 ### Hybrid Retrieval
