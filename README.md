@@ -54,9 +54,9 @@ In our project, we implemented reinforcement learning from scratch using a custo
 
 The custom reward function we used is:
 
-`<p align="center" style="font-size: 24px; font-weight: bold;">
+<p align="center" style="font-size: 30px; font-weight: bold;">
   Reward = α·EMScore + β·F1Score + γ·BERTF1Score + δ·Consistency
-</p>`
+</p>
 
 The custom loss function we used is:
 
