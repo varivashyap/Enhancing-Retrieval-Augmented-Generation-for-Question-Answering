@@ -16,6 +16,6 @@ While Retrieval-Augmented Generation (RAG) has significantly improved the perfor
 
 * **Static Retrieval Strategy:** Most RAG systems use retrieval models trained separately or without dynamic feedback from the answer quality. There is no mechanism for the retriever to adapt based on what leads to better answers.
 
-Limited Diversity and Redundancy: Retrieval methods may miss out on useful supporting facts because they focus too narrowly or retrieve highly redundant documents.
+* **Limited Diversity and Redundancy:** Retrieval methods may miss out on useful supporting facts because they focus too narrowly or retrieve highly redundant documents.
 
 In this project, we aimed to enhance RAG through various methods such as Multihop Retrieval, Hybrid Retrieval, Reinforcement Learning and Dropout Retrieval. By improving retrieval quality, we aim to enhance factual accuracy, completeness and explainability. Our goal is to build more robust, contextually aware and trustworthy Question Answering systems capable of handling complex queries.
