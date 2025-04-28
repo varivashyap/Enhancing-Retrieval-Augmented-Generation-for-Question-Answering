@@ -7,7 +7,11 @@ Note: The codes to run the models mentioned below are uploaded above. Within the
 ### Main Contributions of Project
 We have built an enhanced RAG model using Multihop Retrieval, Reinforcement Learning and Hybrid Retrieval which performs around 6x better (in terms of BLEU score and other evaluation metrics) than the original RAG model.
 
-We did extensive ablation studies of various models including 
+We did extensive ablation studies of the various models that we built and compared their performances using the metrics listed below.
+
+#### Novel Contributions
+* Introduced Consistency in the RL reward function with a combination of EM Score, F1 Score, and BERT F1 Score, resulting in a 4x improvement in BLEU score.
+* Implemented Dropout in retrieval for Question Answering, resulting in 2x increase in BLEU score.
 
 ### Background and Project Motivation
 
@@ -42,21 +46,25 @@ We use the TriviaQA dataset to train and test the RAG models. This dataset is id
 
 We first implemented the RAG model using the TriviaQA dataset, and then incorporated Multihop Retrieval, Reinforcement Learning, Dropout Retrieval and Hybrid Retrieval to build the following models:
 
-**Model 0: RAG (basic implementation of original RAG paper)**
+**Model 1: RAG (basic implementation of original RAG paper)**
 
-**Model 1: RAG + Multihop Retrieval**
+**Model 2: RAG + Dropout Retrieval**
 
-**Model 2: RAG + Reinforcement Learning**
+**Model 3: RAG + Hybrid Retrieval**
 
-**Model 3: RAG + Dropout Retrieval**
+**Model 4: RAG + Reinforcement Learning**
 
-**Model 4: RAG + Hybrid Retrieval**
+**Model 5: RAG + Multi-Hop Retrieval**
 
-**Model 5: RAG + Multihop Retrieval + Reinforcement Learning + Dropout Retrieval**
+**Model 6: RAG + Multihop Retrieval + Reinforcement Learning**
+
+**Model 7: RAG + Hybrid Retrieval + Reinforcement Learning**
+
+**Model 8: RAG + Multih-Hop Retrieval + Reinforcement Learning + Hybrid Retrieval**
 
 ### Multihop Retrieval
 Multihop Retrieval is a method wherein a question is answered by combining information from various documents or facts. It is an iterative process that requires chaining together pieces of evidence across steps (hops).
-In our project, we experimented with various hop sizes.
+In our project, we experimented with various hop sizes (Hop Size = 2, 3)
 
 ### Reinforcement Learning
 In our project, we implemented reinforcement learning from scratch using a custom reward function and loss function.
