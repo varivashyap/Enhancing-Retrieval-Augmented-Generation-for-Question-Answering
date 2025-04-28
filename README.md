@@ -56,14 +56,14 @@ We first implemented the RAG model using the TriviaQA dataset, and then incorpor
 
 **Model 5: RAG + Multi-Hop Retrieval**
 
-**Model 6: RAG + Multihop Retrieval + Reinforcement Learning**
+**Model 6: RAG + Multi-Hop Retrieval + Reinforcement Learning**
 
 **Model 7: RAG + Hybrid Retrieval + Reinforcement Learning**
 
-**Model 8: RAG + Multih-Hop Retrieval + Reinforcement Learning + Hybrid Retrieval**
+**Model 8: RAG + Multi-Hop Retrieval + Reinforcement Learning + Hybrid Retrieval**
 
-### Multihop Retrieval
-Multihop Retrieval is a method wherein a question is answered by combining information from various documents or facts. It is an iterative process that requires chaining together pieces of evidence across steps (hops).
+### Multi-Hop Retrieval
+Multi-Hop Retrieval is a method wherein a question is answered by combining information from various documents or facts. It is an iterative process that requires chaining together pieces of evidence across steps (hops).
 In our project, we experimented with various hop sizes (Hop Size = 2, 3)
 
 ### Reinforcement Learning
