@@ -44,7 +44,7 @@ We use the TriviaQA dataset to train and test the RAG models. This dataset is id
 
 ## Work Done and Experiments:
 
-We first implemented the RAG model using the TriviaQA dataset, and then incorporated Multihop Retrieval, Reinforcement Learning, Dropout Retrieval and Hybrid Retrieval to build the following models:
+We first implemented the RAG model using the TriviaQA dataset, and then incorporated Multi-Hop Retrieval, Reinforcement Learning, Dropout Retrieval and Hybrid Retrieval to build the following models:
 
 **Model 1: RAG (basic implementation of original RAG paper)**
 
