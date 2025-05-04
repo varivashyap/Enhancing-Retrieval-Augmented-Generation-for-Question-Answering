@@ -9,10 +9,6 @@ We have built an enhanced RAG model using Multihop Retrieval, Reinforcement Lear
 
 We did extensive ablation studies of the various models that we built and compared their performances using the metrics listed below.
 
-#### Novel Contributions
-* Introduced Consistency in the RL reward function with a combination of EM Score, F1 Score, and BERT F1 Score, resulting in a 4x improvement in BLEU score.
-* Implemented Dropout in retrieval for Question Answering, resulting in 2x increase in BLEU score.
-
 ### Background and Project Motivation
 
 Retrieval-Augmented Generation is an advanced framework that leverages the power of information retrieval to enhance generative models for tasks such as question answering, summarization, and dialogue. In this approach, a retrieval mechanism first fetches the most relevant documents or passages from a large external knowledge base. These retrieved pieces of information are then passed to a generative model, which synthesizes and generates coherent, contextually accurate responses grounded in the external knowledge. By combining retrieval with generation, RAG improves the quality and factual accuracy of the generated output, making it highly effective for real-world applications requiring deep knowledge and context.
