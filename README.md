@@ -2,7 +2,7 @@
 
 This project enhances the standard Retrieval Augmented Generation pipeline by integrating several advanced retrieval and optimization techniques such as Multihop Retrieval, Reinforcement Learning, Hybrid Retrieval, and Dropout Retrieval.
 
-Note: The codes to run the models mentioned below are uploaded above. Within the folders for each model, we have included the codes for the various experiments we ran (Eg: changing number of hops, changing alpha for RL Loss, etc.). There is an EVAL.ipynb file above that can be used to load and evaluate any saved model.
+Note: The codes to run the models mentioned below are uploaded above. There is an EVAL.ipynb file above that can be used to load and evaluate any saved model.
 
 ### Main Contributions of Project
 We have built an enhanced RAG model using Multihop Retrieval, Reinforcement Learning and Hybrid Retrieval which performs around 8x better (in terms of BLEU score and other evaluation metrics) than the original RAG model.
